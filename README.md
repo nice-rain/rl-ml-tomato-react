@@ -18,8 +18,10 @@ Due to the cost of using multiple t2.medium instances to host Jupyter Notebooks 
 
 ### Installation
 
-`npm install`
-`npm start`
+```
+npm install
+npm start
+```
 
 ## Future Work
 
