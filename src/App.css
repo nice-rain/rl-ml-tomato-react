@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,9 +10,21 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(80, 230, 125);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  background-color: #393f49;
+  padding:20px;
 }

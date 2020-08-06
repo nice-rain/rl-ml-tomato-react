@@ -111,11 +111,27 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Tomato Leaf Disease Identification</h1>
-        <p>
-          Please select an image of a tomato leaf to be identified:
-        </p>
       </header>
-      <main>
+      <main className="container">
+      <section>
+        <p>This application is a proof of concept using a machine learning model (AWS Sagemaker) to predict which disease a tomato leaf contains. It was built over a weekend with a very small data set (~10 images per disease). Because of this, the application has the follow caveats:</p>
+        <ul>
+          <li>Images must be .jpg format</li>
+          <li>Images need to be 200x200 for the most accurate results</li>
+          <li>Images must be one of the follow diseases: 
+            <ul>
+              <li>Early Blight</li>
+              <li>Septoria Leaf Spot</li>
+              <li>Powdery Mildew</li>
+              <li>Leaf Miner</li>
+            </ul>
+          </li>
+        </ul>
+        </section>
+      <section className="App-container">
+        <p>
+          <strong>Please select a photo below to get started:</strong>
+        </p>
         <img src={localImage}/>
         <form>
           <input type="file" id="file-selector" accept=".jpg" ref={imageInput} onChange={handleFileChange} />
@@ -136,6 +152,8 @@ function App() {
             <tbody>{generatePredictionData()}</tbody>
           </table>
         </div> 
+        </section>
+
       </main>
     </div>
   );
