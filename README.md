@@ -23,10 +23,12 @@ npm install
 npm start
 ```
 
-## Future Work
+## Possible Extensions
 
 * Use Semantic UI to design a better-looking web application
-* Make web application responsive
-* Add the ability to crop/resize image before upload
- * This would use HTML5 canvas to manipulate and upload the image data
+* Convert to a basic react-native application
+* Automatically resize image to fit dimentions
+* Add more diseases to model
+* Increase size of dataset for larger accuracy
+* Use HTML5 canvas for cropping/resizing image
 
