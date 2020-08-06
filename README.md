@@ -23,6 +23,14 @@ npm install
 npm start
 ```
 
+## Screenshots
+
+Accurate Response
+![Individual Stats](https://fullstack-dev.pro/images/tomato-accurate.png)
+
+Inaccurate Response
+![Individual Stats](https://fullstack-dev.pro/images/tomato-inaccurate.png)
+
 ## Possible Extensions
 
 * Use Semantic UI to design a better-looking web application
@@ -32,3 +40,6 @@ npm start
 * Increase size of dataset for larger accuracy
 * Use HTML5 canvas for cropping/resizing image
 
+## Live Demo
+
+https://fullstack-dev.pro/tomato-ml
